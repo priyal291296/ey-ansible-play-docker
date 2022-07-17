@@ -1,6 +1,6 @@
 #any playbook in ansible start with ---
 - #task you are defining in playbook
-  hosts: gitvm
+  hosts: git-vm
 
   tasks: #python dictionary 
     - name: update my ubuntu sytem 
