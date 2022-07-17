@@ -1,0 +1,8 @@
+#any playbook in ansible start with ---
+- #task you are defining in playbook
+  hosts: gitvm
+
+  tasks: #python dictionary 
+    - name: update my ubuntu sytem 
+      apt:
+        update_cache: yes
